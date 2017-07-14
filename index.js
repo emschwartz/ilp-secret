@@ -10,7 +10,7 @@ exports.encode = function encode (connectionString) {
   const base64url = base64.replace(/\+/g, '-')
     .replace(/\//g, '_')
     .replace(/=/g, '');
-  return ILP_SECRET_PREFIX + base64
+  return ILP_SECRET_PREFIX + base64url
 }
 
 exports.decode = function decode (ilpSecret) {

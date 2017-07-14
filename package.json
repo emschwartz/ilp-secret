@@ -1,0 +1,26 @@
+{
+  "name": "ilp-secret",
+  "version": "0.1.0",
+  "description": "Encode and decode ILP Secrets (base64url-encoded ILP RPC connection strings)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "ilp-secret": "./cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emschwartz/ilp-secret.git"
+  },
+  "keywords": [
+    "ilp",
+    "interledger"
+  ],
+  "author": "Evan Schwartz <evan@ripple.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/emschwartz/ilp-secret/issues"
+  },
+  "homepage": "https://github.com/emschwartz/ilp-secret#readme"
+}

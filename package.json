@@ -1,6 +1,6 @@
 {
   "name": "ilp-secret",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Encode and decode ILP Secrets (base64url-encoded ILP RPC connection strings)",
   "main": "index.js",
   "scripts": {
